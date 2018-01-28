@@ -1,0 +1,58 @@
+Dependencies for Project 'Calculator', Target 'Calculator': (DO NOT MODIFY !)
+F (.\startup.s)(0x51974264)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Delay.c)(0x59F4AD9E)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (tm4c123gh6pm.h)(0x59F4ADA4)
+I (LCDHeader.h)(0x59F4AD9E)
+F (.\Documentation.c)(0x59F4AD9E)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\documentation.o --omf_browse .\documentation.crf --depend .\documentation.d)
+F (.\initialization.c)(0x5A10B3A6)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\initialization.o --omf_browse .\initialization.crf --depend .\initialization.d)
+I (tm4c123gh.h)(0x59F4ADA4)
+I (LCDHeader.h)(0x59F4AD9E)
+F (..\inc\tm4c123gh6pm.h)(0x53E5EA9A)()
+F (.\prototypes.h)(0x5A163397)()
+F (.\appendDigit.c)(0x5A160126)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\appenddigit.o --omf_browse .\appenddigit.crf --depend .\appenddigit.d)
+I (LCDHeader.h)(0x59F4AD9E)
+F (.\keypad_getkey.c)(0x5A1475A2)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\keypad_getkey.o --omf_browse .\keypad_getkey.crf --depend .\keypad_getkey.d)
+I (..\inc/tm4c123gh6pm.h)(0x53E5EA9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (LCDHeader.h)(0x59F4AD9E)
+F (.\keypad_init.c)(0x5A163497)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\keypad_init.o --omf_browse .\keypad_init.crf --depend .\keypad_init.d)
+I (..\inc/tm4c123gh6pm.h)(0x53E5EA9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (LCDHeader.h)(0x59F4AD9E)
+F (.\equal.c)(0x5A171C48)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\equal.o --omf_browse .\equal.crf --depend .\equal.d)
+I (LCDHeader.h)(0x59F4AD9E)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+F (.\operation.c)(0x5A173A84)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\operation.o --omf_browse .\operation.crf --depend .\operation.d)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (LCDHeader.h)(0x59F4AD9E)
+F (.\displayEquation.c)(0x5A1707F5)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\displayequation.o --omf_browse .\displayequation.crf --depend .\displayequation.d)
+I (LCDHeader.h)(0x59F4AD9E)
+F (.\reset.c)(0x5A160025)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\reset.o --omf_browse .\reset.crf --depend .\reset.d)
+I (LCDHeader.h)(0x59F4AD9E)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+F (.\keypadMap.c)(0x5A15FFD6)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\keypadmap.o --omf_browse .\keypadmap.crf --depend .\keypadmap.d)
+F (.\PortF_Output.c)(0x5A15FFEF)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\portf_output.o --omf_browse .\portf_output.crf --depend .\portf_output.d)
+I (..\inc/tm4c123gh6pm.h)(0x53E5EA9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (.\PortF_Init.c)(0x5A14B04E)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\portf_init.o --omf_browse .\portf_init.crf --depend .\portf_init.d)
+I (..\inc/tm4c123gh6pm.h)(0x53E5EA9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (.\del.c)(0x5A163261)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\del.o --omf_browse .\del.crf --depend .\del.d)
+I (LCDHeader.h)(0x59F4AD9E)
+F (.\cursorLocationMap.c)(0x5A1632CD)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\cursorlocationmap.o --omf_browse .\cursorlocationmap.crf --depend .\cursorlocationmap.d)
+F (.\moveCursor.c)(0x5A163349)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\movecursor.o --omf_browse .\movecursor.crf --depend .\movecursor.d)
+I (LCDHeader.h)(0x59F4AD9E)
+F (.\PortF_Input.c)(0x5A163397)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\portf_input.o --omf_browse .\portf_input.crf --depend .\portf_input.d)
+I (..\inc/tm4c123gh6pm.h)(0x53E5EA9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (.\main.c)(0x5A1633DF)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (..\inc/tm4c123gh6pm.h)(0x53E5EA9A)
+I (LCDHeader.h)(0x59F4AD9E)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C819B4)
+I (prototypes.h)(0x5A163397)
+F (.\texas.o)(0x540300AE)()

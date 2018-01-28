@@ -1,0 +1,24 @@
+--cpu Cortex-M4
+".\startup.o"
+".\delay.o"
+".\documentation.o"
+".\initialization.o"
+".\appenddigit.o"
+".\keypad_getkey.o"
+".\keypad_init.o"
+".\equal.o"
+".\operation.o"
+".\displayequation.o"
+".\reset.o"
+".\keypadmap.o"
+".\portf_output.o"
+".\portf_init.o"
+".\del.o"
+".\cursorlocationmap.o"
+".\movecursor.o"
+".\portf_input.o"
+".\main.o"
+".\texas.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\InputOutput.map" -o .\InputOutput.axf

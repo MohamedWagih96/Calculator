@@ -1,0 +1,1 @@
+.\cursorlocationmap.o: cursorLocationMap.c
